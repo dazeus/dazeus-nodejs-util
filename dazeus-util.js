@@ -80,7 +80,7 @@ module.exports.yargs = function () {
  */
 module.exports.help = function (argv) {
     if (argv.help) {
-        optimist.showHelp();
+        yargs.showHelp();
         process.exit();
     }
 };
